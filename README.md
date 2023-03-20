@@ -16,25 +16,34 @@ O programa irá então calcular o salário do funcionário com base nos contrato
 ### Exemplo
 
 ```
-Insira os dados do funcionário:
-Nome: João
-Nível: JUNIOR
-Salário base: 3000.00
-Quantidade de contratos: 2
+Enter department's name: Design
+Enter worker data:
+Name: Alex
+Level: MID_LEVEL
+Base salary: 1200.00
 
-Insira os dados do contrato #1:
-Data de início (DD/MM/AAAA): 01/01/2022
-Data de término (DD/MM/AAAA): 31/12/2022
-Valor do salário: 1000.00
+How many contracts to this worker? 3
 
-Insira os dados do contrato #2:
-Data de início (DD/MM/AAAA): 01/05/2022
-Data de término (DD/MM/AAAA): 30/04/2023
-Valor do salário: 2000.00
+Enter contract #1 data:
+Date (DD/MM/YYYY): 20/08/2018
+Value per hour: 50.00
+Duration (hours): 20
 
-Digite o mês e o ano para calcular o salário de todos contratos refente a essa data (MM/AAAA): 06/2022
+Enter contract #2 data:
+Date (DD/MM/YYYY): 13/06/2018
+Value per hour: 30.00
+Duration (hours): 18
 
-Salário do funcionário em Junho/2022: 1500.00
+Enter contract #3 data:
+Date (DD/MM/YYYY): 25/08/2018
+Value per hour: 80.00
+Duration (hours): 10
+
+Enter month and year to calculate income (MM/YYYY): 08/2018
+
+Name: Alex
+Department: Design
+Income for 08/2018: 3000.00
 
 ```
 
